@@ -1,0 +1,11 @@
+sf_guard_signin:
+  url:   /login
+  param: { module: twGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: twGuardAuth, action: signout }
+
+sf_guard_password:
+  url:   /request_password
+  param: { module: twGuardAuth, action: password }
