@@ -17,39 +17,39 @@ class twAdminGuardRouting {
 		$r = $event->getSubject();
 		
 		// preprend our routes
-		$r->prependRoute('sf_guard_signin', new sfRoute('/login', array('module' => 'twGuardAuth', 'action' => 'signin')));
-		$r->prependRoute('sf_guard_signout', new sfRoute('/logout', array('module' => 'twGuardAuth', 'action' => 'signout')));
-		$r->prependRoute('sf_guard_password', new sfRoute('/request_password', array('module' => 'twGuardAuth', 'action' => 'password')));
+		$r->prependRoute('tw_guard_signin', new sfRoute('/login', array('module' => 'twGuardAuth', 'action' => 'signin')));
+		$r->prependRoute('tw_guard_signout', new sfRoute('/logout', array('module' => 'twGuardAuth', 'action' => 'signout')));
+		$r->prependRoute('tw_guard_password', new sfRoute('/request_password', array('module' => 'twGuardAuth', 'action' => 'password')));
 	}
 	
 	static public function addRouteForAdminUser(sfEvent $event) {
-		$event->getSubject()->prependRoute('sf_guard_user', new sfPropelRouteCollection(array(
-			'name' => 'sf_guard_user',
+		$event->getSubject()->prependRoute('tw_guard_user', new sfPropelRouteCollection(array(
+			'name' => 'tw_guard_user',
 			'model' => 'sfGuardUser',
 			'module' => 'twGuardUser',
-			'prefix_path' => 'sf_guard_user',
+			'prefix_path' => 'tw_guard_user',
 			'with_wildcard_routes' => true,
 			'requirements' => array()
 		)));
 	}
 	
 	static public function addRouteForAdminGroup(sfEvent $event) {
-		$event->getSubject()->prependRoute('sf_guard_group', new sfPropelRouteCollection(array(
-			'name' => 'sf_guard_group',
+		$event->getSubject()->prependRoute('tw_guard_group', new sfPropelRouteCollection(array(
+			'name' => 'tw_guard_group',
 			'model' => 'sfGuardGroup',
 			'module' => 'twGuardGroup',
-			'prefix_path' => 'sf_guard_group',
+			'prefix_path' => 'tw_guard_group',
 			'with_wildcard_routes' => true,
 			'requirements' => array()
 		)));
 	}
 	
 	static public function addRouteForAdminPermission(sfEvent $event) {
-		$event->getSubject()->prependRoute('sf_guard_permission', new sfPropelRouteCollection(array(
-			'name' => 'sf_guard_permission',
+		$event->getSubject()->prependRoute('tw_guard_permission', new sfPropelRouteCollection(array(
+			'name' => 'tw_guard_permission',
 			'model' => 'sfGuardPermission',
 			'module' => 'twGuardPermission',
-			'prefix_path' => 'sf_guard_permission',
+			'prefix_path' => 'tw_guard_permission',
 			'with_wildcard_routes' => true,
 			'requirements' => array()
 		)));

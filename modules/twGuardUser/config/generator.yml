@@ -7,16 +7,21 @@ generator:
     with_show:             false
     singular:              ~
     plural:                ~
-    route_prefix:          sf_guard_user
+    route_prefix:          tw_guard_user
     with_propel_route:     1
 
     config:
+      actions: ~
       fields:
         password_again: { label: "Password (again)" }
 
       list:
         title:   User list
         display: [=username, created_at, last_login]
+
+      filter:
+        class: twGuardUserFormFilter
+        display: [username, is_active, is_super_admin, sf_guard_user_group_list, sf_guard_user_permission_list]
 
       form:
         class: sfGuardUserAdminForm

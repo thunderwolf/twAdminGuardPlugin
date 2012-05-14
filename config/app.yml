@@ -6,13 +6,13 @@ all:
     not_logged_top_active:        false
     not_logged_menu_active:       false
     
-    login_route:                  '@sf_guard_signin'
-    logout_route:                 '@sf_guard_signout'
+    login_route:                  '@tw_guard_signin'
+    logout_route:                 '@tw_guard_signout'
     
     master_section:
       usersadmin:
         label: Użytkownicy
-        url:   '@sf_guard_user'
+        url:   '@tw_guard_user'
         credentials: [superadmin]
 
     menu:
@@ -20,14 +20,14 @@ all:
         categories:
           users:
             label: Użytkownicy
-            url:   '@sf_guard_user'
+            url:   '@tw_guard_user'
             credentials: [admin]
           permissions:
             label: Uprawnienia
-            url:   '@sf_guard_permission'
+            url:   '@tw_guard_permission'
             credentials: [superadmin]
           groups:
             label: Grupy Uprawnień
-            url:   '@sf_guard_group'
+            url:   '@tw_guard_group'
             credentials: [superadmin]
     
