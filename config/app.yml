@@ -9,7 +9,7 @@ all:
     login_route:                  '@tw_guard_signin'
     logout_route:                 '@tw_guard_signout'
     
-    master_section:
+    top_section:
       usersadmin:
         label: Użytkownicy
         url:   '@tw_guard_user'
