@@ -11,8 +11,13 @@ generator:
     with_propel_route:     1
 
     config:
+      actions: ~
+      fields: ~
       list:
         title: Permission list
+        
+      filter:
+        class: twGuardPermissionFormFilter
 
       edit:
         title: Editing Permission "%%name%%"

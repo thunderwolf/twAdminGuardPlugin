@@ -11,8 +11,13 @@ generator:
     with_propel_route:     1
 
     config:
+      actions: ~
+      fields: ~
       list:
         title: Group list
+
+      filter:
+        class: twGuardGroupFormFilter
 
       edit:
         title: Editing Group "%%name%%"
