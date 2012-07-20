@@ -1,6 +1,8 @@
 <?php use_helper('I18N') ?>
 <div class="sfTMessageContainer sfTLock">
-  <?php echo image_tag('/sf/sf_default/images/icons/lock48.png', array('alt' => 'credentials required', 'class' => 'sfTMessageIcon', 'size' => '48x48')) ?>
+  <?php echo image_tag('/sf/sf_default/images/icons/lock48.png', array(
+	'alt' => 'credentials required', 'class' => 'sfTMessageIcon', 'size' => '48x48'
+)) ?>
   <div class="sfTMessageWrap">
     <h1>Credentials Required</h1>
     <h5>This page is in a restricted area.</h5>
@@ -20,4 +22,3 @@
     </ul>
   </dd>
 </dl>
-

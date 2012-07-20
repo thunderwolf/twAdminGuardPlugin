@@ -7,6 +7,5 @@
  * @subpackage sfGuardPermission
  * @author     Fabien Potencier
  */
-class twGuardPermissionGeneratorConfiguration extends BaseTwGuardPermissionGeneratorConfiguration
-{
+class twGuardPermissionGeneratorConfiguration extends BaseTwGuardPermissionGeneratorConfiguration {
 }

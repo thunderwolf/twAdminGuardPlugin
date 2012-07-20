@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__FILE__).'/../lib/BasetwGuardGroupActions.class.php';
+require_once dirname(__FILE__) . '/../lib/BasetwGuardGroupActions.class.php';
 
 /**
  * twGuardGroup actions.
