@@ -1,8 +1,8 @@
 generator:
-  class: sfPropelGenerator
+  class: twPropelAdminGenerator
   param:
     model_class:           sfGuardGroup
-    theme:                 twadmin
+    theme:                 twadmin15
     non_verbose_templates: true
     with_show:             false
     singular:              ~
