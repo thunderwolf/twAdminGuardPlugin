@@ -21,7 +21,7 @@ generator:
 
       filter:
         class: twGuardUserFormFilter
-        display: [username, is_active, is_super_admin, sf_guard_user_group_list, sf_guard_user_permission_list]
+        display: [username, is_active, is_super_admin, sf_guard_user_group_list, sf_guard_user_permission_list, last_login]
 
       form:
         class: sfGuardUserAdminForm
