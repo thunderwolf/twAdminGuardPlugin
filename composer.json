@@ -1,0 +1,12 @@
+{
+    "name": "thunderwolf/tw-admin-guard-plugin",
+    "type": "symfony1-plugin",
+    "description": "symfony 1.x Admin Template plugin",
+    "keywords": ["symfony", "admin", "guard", "bootstrap"],
+    "homepage": "http://thunderwolf.net/",
+    "require": {
+        "composer/installers": "*",
+        "thunderwolf/tw-admin-plugin": "*",
+        "thunderwolf/sf-guard-plugin": "*"
+    }
+}
