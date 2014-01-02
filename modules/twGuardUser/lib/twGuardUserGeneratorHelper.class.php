@@ -7,5 +7,6 @@
  * @subpackage sfGuardUser
  * @author     Fabien Potencier
  */
-class twGuardUserGeneratorHelper extends BaseTwGuardUserGeneratorHelper {
+class twGuardUserGeneratorHelper extends BaseTwGuardUserGeneratorHelper
+{
 }

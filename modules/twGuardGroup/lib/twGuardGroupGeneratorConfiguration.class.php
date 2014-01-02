@@ -7,5 +7,6 @@
  * @subpackage sfGuardGroup
  * @author     Fabien Potencier
  */
-class twGuardGroupGeneratorConfiguration extends BaseTwGuardGroupGeneratorConfiguration {
+class twGuardGroupGeneratorConfiguration extends BaseTwGuardGroupGeneratorConfiguration
+{
 }

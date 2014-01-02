@@ -10,5 +10,6 @@ require_once dirname(__FILE__) . '/twGuardGroupGeneratorHelper.class.php';
  * @subpackage sfGuardGroup
  * @author     Fabien Potencier
  */
-class BasetwGuardGroupActions extends autotwGuardGroupActions {
+class BasetwGuardGroupActions extends autotwGuardGroupActions
+{
 }

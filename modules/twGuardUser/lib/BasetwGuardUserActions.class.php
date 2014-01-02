@@ -10,5 +10,6 @@ require_once dirname(__FILE__) . '/twGuardUserGeneratorHelper.class.php';
  * @subpackage sfGuardUser
  * @author     Fabien Potencier
  */
-class BasetwGuardUserActions extends autoTwGuardUserActions {
+class BasetwGuardUserActions extends autoTwGuardUserActions
+{
 }

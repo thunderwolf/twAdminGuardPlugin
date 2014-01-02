@@ -10,5 +10,6 @@ require_once dirname(__FILE__) . '/twGuardPermissionGeneratorHelper.class.php';
  * @subpackage sfGuardPermission
  * @author     Fabien Potencier
  */
-class BasetwGuardPermissionActions extends autotwGuardPermissionActions {
+class BasetwGuardPermissionActions extends autotwGuardPermissionActions
+{
 }

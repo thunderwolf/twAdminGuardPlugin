@@ -1,5 +1,6 @@
 <?php
 require_once(dirname(__FILE__) . '/../../../../sfGuardPlugin/modules/sfGuardAuth/actions/actions.class.php');
+
 /**
  * twGuardAuth actions.
  *
@@ -7,5 +8,6 @@ require_once(dirname(__FILE__) . '/../../../../sfGuardPlugin/modules/sfGuardAuth
  * @subpackage twGuardAuth
  * @author     Arkadiusz Tułodziecki
  */
-class twGuardAuthActions extends sfGuardAuthActions {
+class twGuardAuthActions extends sfGuardAuthActions
+{
 }
